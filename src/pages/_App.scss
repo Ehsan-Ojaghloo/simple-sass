@@ -1,0 +1,90 @@
+@use "/src/base/color" as *;
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: $bg-color;
+
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        // background-color: white;
+
+       nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        // background-color: green;
+
+          ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+
+            li {
+                color: $main-color;
+                cursor: pointer;
+            }
+
+          }
+
+          img {
+            width: 80px;
+            height: 80px;
+          }
+
+          button {
+            width: 140px;
+            padding: 12px;
+            border: 2px solid $main-color;
+            border-radius: 50px;
+            color: $main-color;
+            background: none;
+          }
+
+       }
+
+        //nav-container end
+    }
+
+    .hero-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        // background-color: red;
+
+        .hero-inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            // background-color: green;
+
+            h1 {
+                width: 800px;
+                font-size: 2.8rem;
+
+                span {
+                    color: $main-color;
+                }
+
+            }
+
+        }
+
+        //hero-container end
+    }
+
+    //container end
+}
