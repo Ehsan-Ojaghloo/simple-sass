@@ -1,0 +1,72 @@
+@use "../base/color" as *;
+
+//purple
+
+li.purple-theme {
+    color: $bg-color;
+}
+
+button.purple-theme {
+    border: 2px solid $bg-color;
+    color: $bg-color;
+}
+
+button.purple-theme:hover {
+   color: $none-color;
+   background-color: $bg-color !important;
+}
+
+.more-btn.purple-theme {
+    border: 2px solid $bg-color;
+    background-color: $bg-color;
+    color: $none-color;
+}
+
+.more-btn.purple-theme:hover {
+    color: $bg-color;
+    background-color: $none-color !important;
+}
+
+.container.purple-theme {
+    background-color: $none-color;
+}
+
+span.purple-theme {
+    color: $bg-color;
+}
+
+
+//yellow
+
+li.yellow-theme {
+    color: $main-color;
+}
+
+button.yellow-theme {
+    border: 2px solid $main-color;
+    color: $main-color;
+}
+
+button.yellow-theme:hover {
+   color: $bg-color;
+   background-color: $main-color !important;
+}
+
+.more-btn.yellow-theme {
+    border: 2px solid $main-color;
+    background-color: $main-color;
+    color: $bg-color;
+}
+
+.more-btn.yellow-theme:hover {
+    color: $main-color;
+    background-color: $bg-color !important;
+}
+
+.container.yellow-theme {
+    background-color: $bg-color;
+}
+
+span.yellow-theme {
+    color: $main-color;
+}
